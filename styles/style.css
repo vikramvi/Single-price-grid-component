@@ -1,8 +1,113 @@
-.attribution {
+/* ----------- ----------- ----------- ----------- ----------- ----------- */
+/* --------------------------- generic styling --------------------------- */
+/* ----------- ----------- ----------- ----------- ----------- ----------- */
+
+/* Use Required Google Font with Weights */
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+/* everything applicable to or can be used for all elements */
+/* color palette */
+/* font size, weight */
+:root {
+  /* color related */
+  --clr-cyan: hsl(179, 62%, 43%);
+  --clr-bright-yellow: hsl(71, 73%, 54%);
+  --clr-light-gray: hsl(204, 43%, 93%);
+  --clr-grayish-blue: hsl(218, 22%, 67%);
+
+  /* fonts related */
+  --ff-primary: "Karla", sans-serif;
+  --fw-400: 400;
+  --fw-700: 700;
+}
+
+/* Universal Selector & explicitly set box-sizing type */
+/* Box sizing rules */
+/* reset margin, padding */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* typography */
+html {
+  /* 62.5% of 16px browser font size is 10px */
+  font-size: 62.5%;
+  line-height: 1.15;
+}
+
+body {
+  /* 16px */
+  font-size: 1.6em;
+  font-family: var(--ff-primary);
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ----------- ----------- ----------- ----------- ----------- ------------ */
+/* --------------------------- specific styling --------------------------- */
+/* ----------- ----------- ----------- ----------- ----------- ------------ */
+
+/* mobile first approach */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  grid-template-areas:
+    "header-block"
+    "article-subscription"
+    "article-about";
+  /* is this good idea ? */
+  grid-template-rows: 200px 100px 150px;
+  /* grid-auto-rows: minmax(100px, auto); */
+  /* grid-template-rows: auto auto auto; */
+  min-height: 100vh;
+  margin: 6rem 3rem;
+  /* debug purpose only */
+  /* border: 2px solid rgb(25, 208, 102); */
+}
+
+.grid-container__child {
+  padding: 2rem;
+}
+
+/* grid area names */
+
+.header-block {
+  grid-area: header-block;
+  /* debug purpose only */
+  /* border: 1px solid black; */
+}
+
+.article-subscription {
+  grid-area: article-subscription;
+  /* debug purpose only */
+  /* border: 1px solid blue; */
+}
+
+.article-about {
+  grid-area: article-about;
+  /* debug purpose only */
+  /* border: 1px solid rebeccapurple; */
+}
+
+/* .attribution {
   font-size: 11px;
   text-align: center;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
+} */
