@@ -11,8 +11,9 @@
 :root {
   /* color related */
   --clr-cyan: hsl(179, 62%, 43%);
+  --clr-light-cyan: rgb(55, 204, 201);
   --clr-bright-yellow: hsl(71, 73%, 54%);
-  --clr-light-gray: hsl(204, 43%, 93%);
+  --clr-light-gray: rgb(192, 203, 209);
   --clr-grayish-blue: hsl(218, 22%, 67%);
 
   /* fonts related */
@@ -98,6 +99,8 @@ body {
 
 .header-block__first-header {
   color: var(--clr-cyan);
+  font-size: 2.1rem;
+  font-weight: var(--fw-700);
 }
 
 .header-block__second-header {
@@ -136,10 +139,11 @@ body {
   color: white;
   padding: 1rem 0;
   margin-top: 2.5rem;
+  border-radius: 1.1rem;
 }
 
 .article-about {
-  background-color: var(--clr-cyan);
+  background-color: var(--clr-light-cyan);
   color: white;
   gap: 0;
   border-bottom-right-radius: 1.5rem;
@@ -187,6 +191,14 @@ body {
 
   .article-subscription {
     border-bottom-left-radius: 1.5rem;
+  }
+
+  .article-subscription__cta-button {
+    width: 85%;
+  }
+
+  .article-about {
+    border-bottom-left-radius: 0;
   }
 }
 
