@@ -45,3 +45,30 @@ This is my 10th project from FM & I learnt most important lesson which is ..
   > how much pain your customers are ready to bear with your code quality.
 - Being a customer who paid bomb for MS Vista OS on Dell laptop, ex-MS employee itself, also a 1K+ USD iPhone user; I know limit of patience & quality now a days customers have or used to :rofl:
 - **Thus there is not point getting stressed out about code quality instead build confidence that you can solve any problem ( big or small ) with your coding or googling skills**
+
+### Continued development
+
+Learn more about below
+
+- min-width, max-width
+- min-height, max-height
+- minmax function
+- grid rows height management
+- better debugging skills to find out problem
+
+### Useful resources
+
+- Frontend Mentor slack community + website
+- YT videos
+- Google
+- Stackoverflow
+
+## Author
+
+- Frontend Mentor - [@vikramvi](https://www.frontendmentor.io/profile/vikramvi)
+
+## Acknowledgments
+
+- FM community
+- YT content creators
+- Google + SO community
