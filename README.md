@@ -29,7 +29,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 This is my 10th project from FM & I learnt most important lesson which is ..
 
-> Do you swim like a **dog** or **Michael Phelps** and does it really matter ?
+> Do you swim like a **dog**:dog2: or **Michael Phelps**:swimming_man: and does it really matter ?
 
 - Yesterday I got lots of review comments on my "working code" from a ( so called ) senior / expert developer.
 - Initially I felt bad about it; as I got things working and still got so many review comments.
