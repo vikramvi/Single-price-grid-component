@@ -39,3 +39,9 @@ This is my 10th project from FM & I learnt most important lesson which is ..
 - ..then you can learn how to perfect your swimming strokes to cover longer distance with lesser efforts.
 
 > In my ~ 2 decades of IT experience working as SDET, I didn't met ( in India, US, EU / Germany ) any developer who said other developer has written good quality code. Developers always use to complain that other person has written **Spaghetti code**.
+
+- After working in multiple startups; I learnt that; **_what business really care is delivering a feature ASAP with "acceptable" code quality. Nobody has time and money for code which followed TDD, all the best practices in the world._**
+- "acceptable" code quality is decided by your team and manager plus
+  > how much pain your customers are ready to bear with your code quality.
+- Being a customer who paid bomb for MS Vista OS on Dell laptop, ex-MS employee itself, also a 1K+ USD iPhone user; I know limit of patience & quality now a days customers have or used to :rofl:
+- **Thus there is not point getting stressed out about code quality instead build confidence that you can solve any problem ( big or small ) with your coding or googling skills**
