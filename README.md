@@ -38,7 +38,7 @@ This is my 10th project from FM & I learnt most important lesson which is ..
 - Once you're confident that you can swim in a swimming pool, lake, river, ocean etc...
 - ..then you can learn how to perfect your swimming strokes to cover longer distance with lesser efforts.
 
-> In my ~ 2 decades of IT experience working as SDET, I didn't met ( in India, US, EU / Germany ) any developer who said other developer has written good quality code. Developers always use to complain that other person has written **Spaghetti code**.
+> In my ~ 2 decades of IT experience working as SDET, I didn't met ( in India, US, EU / Germany ) any developer who said other developer has written good quality code. Developers always use to complain that other person has written **Spaghetti code**. :spaghetti:
 
 - After working in multiple startups; I learnt that; **_what business really care is delivering a feature ASAP with "acceptable" code quality. Nobody has time and money for code which followed TDD, all the best practices in the world._**
 - "acceptable" code quality is decided by your team and manager plus
