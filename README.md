@@ -16,6 +16,29 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
+## Overview
+
+This is 10th project from "Frontend Mentor" to sharpen HTML & CSS skills along with responsive web design and it's build with "BEM" and "Grid layout".
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the component depending on their device's screen size
+- See a hover state on desktop for the Sign Up call-to-action
+
+### Screenshot
+
+![Plan Drawing](./screenshots/drawing.png)
+
+![Desktop Preview](./screenshots/desktop.png)
+
+![Mobile Preview](./screenshots/mobile.png)
+
+### Links
+
+- [Live Site URL](https://vikramvi.github.io/Single-price-grid-component/)
+
 ## My process
 
 ### Built with
@@ -31,7 +54,7 @@ This is my 10th project from FM & I learnt most important lesson which is ..
 
 > Do you swim like a **dog** :dog2: or **Michael Phelps** :swimming_man: and does it really matter :man_shrugging: ?
 
-- Yesterday I got lots of review comments on my "working code" from a ( so called ) senior / expert developer.
+- Yesterday I got lots of review comments on my "working code" from a ( so called ) senior / expert developer :nerd_face:.
 - Initially I felt bad about it; as I got things working and still got so many review comments.
 - But then I thought, at-least I can build project perfectly ( with some imperfect code )
 - Being able to swim like a dog initially and getting rid of fear of water is most important IMHO.
