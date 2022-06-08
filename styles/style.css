@@ -92,6 +92,8 @@ body {
 
 .header-block {
   background-color: white;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
 }
 
 .header-block__first-header {
@@ -140,6 +142,8 @@ body {
   background-color: var(--clr-cyan);
   color: white;
   gap: 0;
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
 }
 
 .article-about__header {
@@ -180,6 +184,10 @@ body {
       "header-block header-block"
       "article-subscription article-about";
   }
+
+  .article-subscription {
+    border-bottom-left-radius: 1.5rem;
+  }
 }
 
 /* grid area names */
@@ -187,19 +195,19 @@ body {
 .header-block {
   grid-area: header-block;
   /* debug purpose only */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .article-subscription {
   grid-area: article-subscription;
   /* debug purpose only */
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .article-about {
   grid-area: article-about;
   /* debug purpose only */
-  border: 1px solid rebeccapurple;
+  /* border: 1px solid rebeccapurple; */
 }
 
 /* .attribution {
