@@ -141,7 +141,7 @@ body {
   color: white;
   padding: 1rem 0;
   margin-top: 2.5rem;
-  border-radius: 1.1rem;
+  border-radius: 0.8rem;
 }
 
 .article-about {
@@ -181,7 +181,7 @@ body {
     /* https://stackoverflow.com/questions/72539181/grid-container-element-is-not-getting-centered */
     /* https://forum.freecodecamp.org/t/not-able-to-center-grid-container-element-with-min-height-strategy-per-fcc-article/515798/2 */
     min-height: min-content;
-    max-width: 650px;
+    max-width: 600px;
     margin: 1rem auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -192,7 +192,7 @@ body {
   }
 
   .grid-container__child {
-    padding: 4rem 2rem 4rem 4rem;
+    padding: 4rem 0 4rem 4rem;
   }
 
   .header-block__second-header {
@@ -209,10 +209,11 @@ body {
 
   .article-subscription {
     border-bottom-left-radius: 1.5rem;
+    padding-right: 4rem;
   }
 
-  .article-subscription__cta-button {
-    width: 85%;
+  .article-subscription__info {
+    font-size: 1.45rem;
   }
 
   .article-about {
