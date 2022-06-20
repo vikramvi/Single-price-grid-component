@@ -76,7 +76,7 @@ body {
     "article-about";
   /* is this good idea ? */
   /* https://forum.freecodecamp.org/t/whats-the-best-way-to-define-variable-rows-height-in-css-grid/515515 */
-  grid-template-rows: 250px 220px 250px;
+  grid-template-rows: 220px 220px 250px;
   /* grid-auto-rows: minmax(100px, auto); */
   /* grid-template-rows: auto auto auto; */
   min-height: 100vh;
@@ -88,6 +88,7 @@ body {
 .grid-container__child {
   padding: 2rem;
   display: grid;
+  /* ?? why is this needed */
   gap: 1rem;
 }
 
@@ -95,14 +96,12 @@ body {
   background-color: white;
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
-  padding: 40px 20px 20px 40px;
 }
 
 .header-block__first-header {
   color: var(--clr-cyan);
   font-size: 2.1rem;
   font-weight: var(--fw-700);
-  margin-bottom: 1.3rem;
 }
 
 .header-block__second-header {
@@ -190,6 +189,22 @@ body {
     grid-template-areas:
       "header-block header-block"
       "article-subscription article-about";
+  }
+
+  .grid-container__child {
+    padding: 4rem 2rem 4rem 4rem;
+  }
+
+  .header-block__second-header {
+    margin-bottom: 1.1rem;
+  }
+
+  .header-block__info--individual-line {
+    display: block;
+  }
+
+  .header-block__info--top-margin {
+    margin-top: 1.1rem;
   }
 
   .article-subscription {
